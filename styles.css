@@ -1,0 +1,96 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/** index.html **/
+.index {
+    background-color: coral;
+}
+.odin {
+    text-align: center;
+    font-size: 40px;
+}
+.recipe.list {
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+}
+ul.recipe.list {
+    list-style-type: none;
+}
+li.home {
+    margin-bottom: 5px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+img.small {
+    width: 200px;
+    height: auto;
+}
+img.big {
+    width: 200px;
+    height: 200px;
+}
+
+img.small:hover {
+    width: 400px;
+    height: auto;
+}
+img.big:hover {
+    width: 300px;
+    height: auto;
+}
+
+
+
+/* All Recipes HTMLs */
+.recipes {
+    background-color: coral;
+}
+.name {
+    text-align: center;
+}
+
+.container-img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+img.porkchops {
+    width: 200px;
+    height: auto;
+}
+img.big-img {
+    width: 200px;
+    height: auto;
+}
+
+.description {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.ingredients {
+    width: fit-content;
+    margin: auto;
+}
+
+.ingredients h2 {
+    text-align: center;
+}
+
+.steps {
+    width: fit-content;
+    margin: auto;
+}
+.steps h2 {
+    text-align: center;
+}
